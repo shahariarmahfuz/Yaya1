@@ -1,6 +1,14 @@
 name = "d1-api"
 compatibility_date = "2025-11-28"
+type = "javascript"   # simple JS module worker
 
+main = "src/index.js"
 [[d1_databases]]
 binding = "DB"
 database_name = "perf_db"   # আপনার D1 নাম
+
+
+# যদি D1 যুক্ত করতে চান (পরবর্তীতে)
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "perf_db"
