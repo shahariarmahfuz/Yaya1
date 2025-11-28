@@ -1,0 +1,6 @@
+name = "d1-api"
+compatibility_date = "2025-11-28"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "perf_db"   # আপনার D1 নাম
